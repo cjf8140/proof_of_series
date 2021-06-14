@@ -8,8 +8,8 @@ var sum = 0;
 function setup() {
   createCanvas(1280, 720);
   background(230);
-  a = prompt("첫째항", "1");
-  gb = prompt("공비 입력", "0.5");
+  a = Number(prompt("첫째항", "1"));
+  gb = Number(prompt("공비 입력", "0.5"));
   stroke(2);
   textSize(10);
   fill(0);
