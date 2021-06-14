@@ -18,7 +18,7 @@ function setup() {
 function draw() { //<>//
   y+=20;
   sum+=a;
-  if(lsum == sum) {
+  if(sum - lsum < 0.000001) {
     return;
   }
   text("sum= "+ sum + ", n= " +a, 10, y);
