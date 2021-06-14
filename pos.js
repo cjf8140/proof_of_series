@@ -10,6 +10,7 @@ function setup() {
   background(230);
   a = prompt("첫째항", "1");
   gb = prompt("공비 입력", "1");
+  stroke(2);
   textSize(20);
   fill(0);
 }
