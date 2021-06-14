@@ -18,7 +18,7 @@ function setup() {
 function draw() { //<>//
   y+=20;
   sum+=a;
-  text("val: "+ sum, 10, y);
+  text("sum= "+ sum + ", n= "+a, 10, y);
   a *= gb;
 }
 
