@@ -24,7 +24,7 @@ function draw() { //<>//
   if(sum - lsum < 0.0000001) {
     return;
   }
-  text("1: "+sum= "+ sum + ", n= " +a, 10, y);
+  text("1: "+"sum= "+ sum + ", n= " +a, 10, y);
   a *= gb;
   lsum = sum;
 }
