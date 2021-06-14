@@ -6,7 +6,7 @@ var y = 0;
 var sum = 0;
 
 function setup() {
-  createCanvas(1280, 72000);
+  createCanvas(1280, 7200);
   background(230);
   a = Number(prompt("첫째항", "1"));
   gb = Number(prompt("공비 입력", "0.3"));
