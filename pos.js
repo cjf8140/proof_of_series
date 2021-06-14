@@ -6,6 +6,8 @@ var y = 0;
 var sum = 0;
 var lsum = -1;
 
+var run = 1;
+
 var n = 0;
 function setup() {
   createCanvas(1280, 2000);
@@ -18,15 +20,17 @@ function setup() {
 }
  //<>//
 function draw() { //<>//
+  if(run) {
   y+=20;
   n+=1;
   sum+=a;
   if(sum - lsum < 0.0000001) {
-    return;
+    run = 0;
   }
   text(n+": "+"sum= "+ sum + ", n= " +a, 10, y);
   a *= gb;
   lsum = sum;
+}
 }
 
 function keyPressed() {
