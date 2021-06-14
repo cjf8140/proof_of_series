@@ -11,12 +11,10 @@ function setup() {
   a = prompt("첫째항", "1");
   gb = prompt("공비 입력", "1");
   textSize(50);
+  fill(0);
 }
  //<>//
 function draw() { //<>//
-  if(gb >= 1) {
-    return;
-  }
   y+=10;
   text("val: "+ a, 10, y);
   a *= gb;
