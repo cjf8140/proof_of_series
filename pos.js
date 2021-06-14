@@ -8,6 +8,8 @@ var lsum = -1;
 
 var run = 1;
 
+var bd = 0;
+
 var n = 0;
 function setup() {
   createCanvas(480, 2000);
@@ -21,7 +23,7 @@ function setup() {
 }
  //<>//
 function draw() { //<>//
-  if(run) {
+  if(run && bd) {
   y+=20;
   n+=1;
   sum+=a;
@@ -36,5 +38,6 @@ function draw() { //<>//
 
 function keyPressed() {
   if(key == '1') {
+    bd = 1
   }
 }
