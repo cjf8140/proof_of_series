@@ -19,7 +19,7 @@ function setup() {
   stroke(2);
   textSize(10);
   fill(0);
-  text("Expected Value: "" + a/(1-gb) ,10, 20);
+  text("Expected Value: " + a/(1-gb) ,10, 20);
 }
  //<>//
 function draw() { //<>//
