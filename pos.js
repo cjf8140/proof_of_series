@@ -10,7 +10,7 @@ var run = 1;
 
 var n = 0;
 function setup() {
-  createCanvas(1280, 2000);
+  createCanvas(480, 2000);
   background(230);
   a = Number(prompt("첫째항", "1"));
   gb = Number(prompt("공비 입력", "0.5"));
