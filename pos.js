@@ -16,7 +16,7 @@ var launched = 0;
 var la = 0;
 
 function setup() {
-  createCanvas(3280, 720);
+  createCanvas(1280, 720);
   background(230);
   var msg = prompt("GongBi", "1");
 }
