@@ -1,27 +1,20 @@
-var mode = 0;
+var gb;
+var a;
 
-var y = 600;
-var yv;
-var ya = 1;
-
-var x = 100;
-var xv;
-
-var angle = 0;
-var vel = 30;
-
-var launch = 0;
-var launched = 0;
 
 var la = 0;
 
 function setup() {
   createCanvas(1280, 720);
   background(230);
-  var msg = prompt("GongBi", "1");
+  a = prompt("첫째항", "1");
+  gb = prompt("공비 입력", "1");
 }
  //<>//
 function draw() { //<>//
+  if(gb >= 1) {
+    return;
+  }
 }
 
 function keyPressed() {
