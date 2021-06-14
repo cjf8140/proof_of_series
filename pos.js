@@ -1,7 +1,7 @@
 var gb;
 var a;
 
-var y = 0;
+var y = 20;
 
 var sum = 0;
 var lsum = -1;
@@ -17,6 +17,7 @@ function setup() {
   stroke(2);
   textSize(10);
   fill(0);
+  text("Expected Value: "" + a/(1-gb) ,10, 20);
 }
  //<>//
 function draw() { //<>//
