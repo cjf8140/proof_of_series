@@ -1,7 +1,7 @@
 var gb;
 var a;
 
-var y = 20;
+var y = 70;
 
 var sum = 0;
 var lsum = -1;
@@ -12,19 +12,19 @@ var bd = 1;
 
 var n = 0;
 function setup() {
-  createCanvas(480, 2000);
+  createCanvas(720, 2000);
   background(230);
   a = Number(prompt("첫째항", "1"));
   gb = Number(prompt("공비 입력", "0.5"));
   stroke(2);
-  textSize(10);
+  textSize(50);
   fill(0);
-  text("Expected Value: " + a/(1-gb) ,10, 20);
+  text("Expected Value: " + a/(1-gb) ,10, y);
 }
  //<>//
 function draw() { //<>//
   if(run && bd) {
-  y+=20;
+  y+=70;
   n+=1;
   sum+=a;
   if(sum - lsum < 0.0000000000001) {
