@@ -24,7 +24,7 @@ function draw() { //<>//
   y+=20;
   n+=1;
   sum+=a;
-  if(sum - lsum < 0.0000001) {
+  if(sum - lsum < 0.0000000000001) {
     run = 0;
   }
   text(n+": "+"sum= "+ sum + ", n= " +a, 10, y);
