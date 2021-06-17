@@ -8,11 +8,11 @@ var lsum = -1;
 
 var run = 1;
 
-var bd = 0;
+var bd = 1;
 
 var n = 0;
 function setup() {
-  createCanvas(1280, 2000);
+  createCanvas(1280, 4000);
   background(230);
   a = Number(prompt("첫째항", "1"));
   gb = Number(prompt("공비 입력", "0.5"));
